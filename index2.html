@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lisede Dersler </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+<nav class="navbar">                  
+<img src="logo.jpg" class= "logo">
+   
+  <button class="hamburger" id="hamburger" > 
+   &#9776;
+  </button>
+    <ul class="menu">                  
+    <li><a href="index2.html">Ana Sayfa</a></li>
+    <li><a href="#">Konular</a></li>
+    <li><a href="#">Rehberlik</a></li>
+    <li><a href="#">İletişim</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+  <!-- Sol Ünite/Konular -->
+  <aside class="sidebar">
+    <h2>Dersler</h2>
+  <ul class="unit-list">
+
+    <li class="unit">
+      <div class="unit-title">Matematik</div>
+      <ul class="topic-list">
+        <li data-page= "pages/mat5.html">5. Sınıf</li>
+        <li data-page="pages/mat6.html">6. Sınıf</li>
+        <li data-page="pages/mat7.html">7. Sınıf</li>
+        <li data-page="pages/mat8.html">8. Sınıf</li>
+      </ul>
+    </li>
+    <li class="unit">
+      <div class="unit-title">Türkçe</div>
+      <ul class="topic-list">
+        <li data-page= "pages/tur5.html">5. Sınıf</li>
+        <li data-page="pages/tur6.html">6. Sınıf</li>
+        <li data-page="pages/tur7.html">7. Sınıf</li>
+        <li data-page="pages/tur8.html">8. Sınıf</li>
+      </ul>
+    </li>
+    <li class="unit">
+      <div class="unit-title">Fen Bilimleri</div>
+      <ul class="topic-list">
+        <li data-page= "pages/fen9.html">5. Sınıf</li>
+        <li data-page="pages/fen10.html">6. Sınıf</li>
+        <li data-page="pages/fen11.html">7. Sınıf</li>
+        <li data-page="pages/fen12.html">8. Sınıf</li>
+      </ul>
+    </li>
+     <li class="unit">
+      <div class="unit-title">Sosyal Bilgiler</div>
+      <ul class="topic-list">
+        <li data-page= "pages/sos5.html">5. Sınıf</li>
+        <li data-page="pages/sos6.html">6. Sınıf</li>
+        <li data-page="pages/sos7.html">7. Sınıf</li>
+        <li data-page="pages/sos8.html">8. Sınıf</li>
+      </ul>
+    </li>
+         <li class="unit">
+      <div class="unit-title">İngilizce</div>
+      <ul class="topic-list">
+        <li data-page= "pages/ing5.html">5. Sınıf</li>
+        <li data-page="pages/ing6.html">6. Sınıf</li>
+        <li data-page="pages/ing7.html">7. Sınıf</li>
+        <li data-page="pages/ing8.html">8. Sınıf</li>
+      </ul>
+    </li>
+  <li class="unit">
+      <div class="unit-title">Din Kültürü ve Ahlak Bilgisi</div>
+      <ul class="topic-list">
+          <li data-page= "pages/dkab5.html">5. Sınıf</li>
+        <li data-page="pages/dkab6.html">6. Sınıf</li>
+        <li data-page="pages/dkab7.html">7. Sınıf</li>
+        <li data-page="pages/dkab8.html">8. Sınıf</li>
+      </ul>
+    </li>
+  </ul>
+
+
+</aside>
+
+  <!-- Sağ Video Alanı -->
+ <main class="content">
+  <div class="video-section">
+    <h2>Video Ders</h2>
+    <iframe id="videoPlayer"
+      src=""
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="info-section">
+    <h2>Konu Özeti</h2>
+    <button id="konuozeti"> Konu Özeti </button> 
+
+    <h2>Test Çöz</h2>
+    <button id="testcoz"> Soru Çöz</button>
+  </div>
+</main>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lisede Dersler </title>
+        <link rel="stylesheet" href="pagestyles.css">
+    </head>
+<body>
+<nav class="navbar">                  
+<img src="logo.jpg" class= "logo">
+   
+  <button class="hamburger" id="hamburger" > 
+   &#9776;
+  </button>
+    <ul class="menu">                  
+    <li><a href="../index.html">Ana Sayfa</a></li>
+    <li><a href="#">Konular</a></li>
+    <li><a href="#">Rehberlik</a></li>
+    <li><a href="#">İletişim</a></li>
+  </ul>
+</nav>
+<div class="page-container">
+
+  <!-- Sol tarafta konu listesi -->
+  <aside class="sidebar">
+    <h2>Konular</h2>
+    <ul class="topic-list">
+      <li data-video="https://youtu.be/-74Wk4ex4Eg?si=jOkg_NcywTiiYpcs">Konu 1.1: Yaşam Bilimi Biyoloji</li>
+      <li data-video="https://www.youtube.com/embed/yyyy">Konu 1.2: Sınıflandırma ve Biyoçeşitlilik</li>
+      <li data-video="https://www.youtube.com/embed/zzzz">Konu 2.1: İnorganik Moleküller</li>
+      <li data-video="https://www.youtube.com/embed/zzzz">Konu 2.2: Organik Moleküller</li>
+      <li data-video="https://www.youtube.com/embed/zzzz">Konu 2.3: Hücre Organizasyonu</li>
+
+    </ul>
+  </aside>
+
+  <!-- Sağ tarafta video ve içeriği -->
+  <main class="content">
+
+<div class="video-wrapper">
+    <iframe id="videoPlayer"
+      src="https://www.youtube.com/embed/xxxx"
+      frameborder="0"
+      allowfullscreen></iframe>
+</div>
+    <!-- Butonlar -->
+    <div class="button-row">
+      <a href="https://notebooklm.google.com/notebook/fc8b5bfe-71eb-4937-916e-3343994bef03"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="btn btn-summary">
+     📘 Konu Özeti
+  </a>
+      <button id="btnQuiz">📝 Test Çöz</button>
+      <button id="btnPdf">📄 PDF İndir</button>
+    </div>
+
+    <!-- Konu Özeti Kutusu -->
+    <div id="summaryBox" class="info-box hidden">
+      <h3>Konu Özeti</h3>
+      <p>Burası bu dersin konu özetidir...</p>
+    </div>
+
+    <!-- Quiz sayfası yönlendirme -->
+    <div id="quizBox" class="info-box hidden">
+      <h3>Test Çöz</h3>
+      <p>Test çözmek için aşağıdaki butona tıklayın.</p>
+      <button onclick="window.location.href='quiz1.html'">Teste Başla</button>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="pagescript.js"></script>
+</body>
+</html>

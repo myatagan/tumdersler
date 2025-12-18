@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lisede Dersler </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+<nav class="navbar">                  
+<img src="logo.jpg" class= "logo">
+   
+  <button class="hamburger" id="hamburger" > 
+   &#9776;
+  </button>
+    <ul class="menu">                  
+    <li><a href="index.html">Ana Sayfa</a></li>
+    <li><a href="#">Konular</a></li>
+    <li><a href="#">Rehberlik</a></li>
+    <li><a href="#">İletişim</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+  <!-- Sol Ünite/Konular -->
+  <aside class="sidebar">
+    <h2>Dersler</h2>
+  <ul class="unit-list">
+
+    <li class="unit">
+      <div class="unit-title">Matematik</div>
+      <ul class="topic-list">
+        <li data-page= "pages/mat9.html">9. Sınıf</li>
+        <li data-page="pages/mat10.html">10. Sınıf</li>
+        <li data-page="pages/mat11.html">11. Sınıf</li>
+        <li data-page="pages/mat12.html">12. Sınıf</li>
+      </ul>
+    </li>
+
+    <li class="unit">
+      <div class="unit-title">Fizik</div>
+      <ul class="topic-list">
+        <li data-page= "pages/fiz9.html">9. Sınıf</li>
+        <li data-page="pages/fiz10.html">10. Sınıf</li>
+        <li data-page="pages/fiz11.html">11. Sınıf</li>
+        <li data-page="pages/fiz12.html">12. Sınıf</li>
+      </ul>
+    </li>
+     <li class="unit">
+      <div class="unit-title">Kimya</div>
+      <ul class="topic-list">
+        <li data-page= "pages/kim9.html">9. Sınıf</li>
+        <li data-page="pages/kim10.html">10. Sınıf</li>
+        <li data-page="pages/kim11.html">11. Sınıf</li>
+        <li data-page="pages/kim12.html">12. Sınıf</li>
+      </ul>
+    </li>
+     <li class="unit">
+      <div class="unit-title">Biyoloji</div>
+      <ul class="topic-list">
+        <li data-page= "pages/biy9.html">9. Sınıf</li>
+        <li data-page="pages/biy10.html">10. Sınıf</li>
+        <li data-page="pages/biy11.html">11. Sınıf</li>
+        <li data-page="pages/biy12.html">12. Sınıf</li>
+      </ul>
+    </li>
+     <li class="unit">
+      <div class="unit-title">Türk Dili ve Edebiyatı</div>
+      <ul class="topic-list">
+       <li data-page= "pages/tde9.html">9. Sınıf</li>
+        <li data-page="pages/tde10.html">10. Sınıf</li>
+        <li data-page="pages/tde11.html">11. Sınıf</li>
+        <li data-page="pages/tde12.html">12. Sınıf</li>
+      </ul>
+    </li>
+     <li class="unit">
+      <div class="unit-title">Tarih</div>
+      <ul class="topic-list">
+      <li data-page= "pages/tar9.html">9. Sınıf</li>
+        <li data-page="pages/tar10.html">10. Sınıf</li>
+        <li data-page="pages/tar11.html">11. Sınıf</li>
+        <li data-page="pages/tar12.html">12. Sınıf</li>
+      </ul>
+    </li>
+     <li class="unit">
+      <div class="unit-title">Coğrafya</div>
+      <ul class="topic-list">
+         <li data-page= "pages/cog9.html">9. Sınıf</li>
+        <li data-page="pages/cog10.html">10. Sınıf</li>
+        <li data-page="pages/cog11.html">11. Sınıf</li>
+        <li data-page="pages/cog12.html">12. Sınıf</li>
+      </ul>
+    </li>
+
+  
+  <li class="unit">
+      <div class="unit-title">Felsefe</div>
+      <ul class="topic-list">
+        <li data-page="pages/fel10.html">10. Sınıf</li>
+        <li data-page="pages/fel11.html">11. Sınıf</li>
+          </ul>
+    </li>
+
+  
+  <li class="unit">
+      <div class="unit-title">Din Kültürü ve Ahlak Bilgisi</div>
+      <ul class="topic-list">
+          <li data-page= "pages/dkab9.html">9. Sınıf</li>
+        <li data-page="pages/dkab10.html">10. Sınıf</li>
+        <li data-page="pages/dkab11.html">11. Sınıf</li>
+        <li data-page="pages/dkab12.html">12. Sınıf</li>
+      </ul>
+    </li>
+  </ul>
+
+
+</aside>
+
+  <!-- Sağ Video Alanı -->
+ <main class="content">
+  <div class="video-section">
+    <h2>Video Ders</h2>
+    <iframe id="videoPlayer"
+      src=""
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="info-section">
+    <h2>Konu Özeti</h2>
+    <button id="konuozeti"> Konu Özeti </button> 
+
+    <h2>Test Çöz</h2>
+    <button id="testcoz"> Soru Çöz</button>
+  </div>
+</main>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

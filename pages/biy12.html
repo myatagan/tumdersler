@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lisede Dersler</title>
+  <link rel="stylesheet" href="pagestyles.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <img src="logo.jpg" class="logo">
+
+  <button class="hamburger" id="hamburger">&#9776;</button>
+
+  <ul class="menu">
+    <li><a href="../index.html">Ana Sayfa</a></li>
+    <li><a href="#">Konular</a></li>
+    <li><a href="#">Rehberlik</a></li>
+    <li><a href="#">İletişim</a></li>
+  </ul>
+</nav>
+
+<div class="page-container">
+
+  <!-- SOL MENÜ -->
+ <aside class="sidebar">
+  <h2>Konular</h2>
+
+  <ul class="topic-list">
+
+    <!-- KONU 1 (tek videolu) -->
+   <li class="topic">
+      <div class="topic-header">
+       Genden Proteine
+      </div>
+
+      <ul class="sub-topic-list">
+        <li data-video="https://www.youtube.com/embed/XVzvCw2gZcI">
+          📺 Işığın ve Fotosentezin Sırları
+        </li>
+        <li data-video="https://www.youtube.com/embed/8Ym7dGOrIf0?si=wm5FOkJutgc5ZF94">
+          📺 Güneşin Enerjisi
+        </li>
+        <li data-video="https://www.youtube.com/embed/-q9Mr9-CGMU?si=2xpY4S0_wTeTrATU">
+          📺 Işıktan Bağımsız Reaksiyonlar
+        </li>
+        <li data-video="https://www.youtube.com/embed/_aAB_jigrTg?si=o8RHiZ1iNLLEZNiz">
+          📺 Fotosentez Hızını Etkileyenler
+        </li>
+      </ul>
+    </li>
+
+    <!-- KONU 2 (çok videolu) -->
+    <li class="topic">
+      <div class="topic-header">
+         Canlılarda Enerji Dönüşümleri
+      </div>
+
+      <ul class="sub-topic-list">
+        <li data-video="https://www.youtube.com/embed/XVzvCw2gZcI">
+          📺 Işığın ve Fotosentezin Sırları
+        </li>
+        <li data-video="https://www.youtube.com/embed/8Ym7dGOrIf0?si=wm5FOkJutgc5ZF94">
+          📺 Güneşin Enerjisi
+        </li>
+        <li data-video="https://www.youtube.com/embed/-q9Mr9-CGMU?si=2xpY4S0_wTeTrATU">
+          📺 Işıktan Bağımsız Reaksiyonlar
+        </li>
+        <li data-video="https://www.youtube.com/embed/_aAB_jigrTg?si=o8RHiZ1iNLLEZNiz">
+          📺 Fotosentez Hızını Etkileyenler
+        </li>
+      </ul>
+    </li>
+
+    <!-- KONU 3 (tek videolu) -->
+    <li class="topic">
+      <div class="topic-header">
+       Bitki Biyolojisi
+      </div>
+
+      <ul class="sub-topic-list">
+        <li data-video="https://www.youtube.com/embed/ntajmW0Ic6c?si=stb-0Jww4zq6bdVR">
+          📺 Bitkilerin Yapısı
+        </li>
+        <li data-video="https://www.youtube.com/embed/girrxQvC_t8?si=KliBi3oUlHn4WGlK">
+          📺 Bitkilerde Madde Taşınması
+        </li>
+        <li data-video="https://www.youtube.com/embed/X1xqqjlfUJ4?si=73LQZ2D7-rOv_7ji">
+          📺 Bitkilerde Eşeyli Üreme
+        </li>
+        </ul>
+    <!-- KONU 4 (tek videolu) -->
+  <li class="topic">
+      <div class="topic-header">
+       Canlılar ve Çevre
+      </div>
+
+      <ul class="sub-topic-list">
+        <li data-video="https://www.youtube.com/embed/ntajmW0Ic6c?si=stb-0Jww4zq6bdVR">
+          📺 Sindirime İçeriden Bir Bakış
+        </li>
+        <li data-video="https://www.youtube.com/embed/girrxQvC_t8?si=KliBi3oUlHn4WGlK">
+          📺 Hayvanların Sindirim Sitemi
+        </li>
+        <li data-video="https://www.youtube.com/embed/-q9Mr9-CGMU?si=2xpY4S0_wTeTrATU">
+          📺 Işıktan Bağımsız Reaksiyonlar
+        </li>
+        <li data-video="https://www.youtube.com/embed/_aAB_jigrTg?si=o8RHiZ1iNLLEZNiz">
+          📺 Fotosentez Hızını Etkileyenler
+        </li>
+      </ul>
+    </li>
+
+  
+
+     </ul>
+</aside>
+
+
+  <!-- SAĞ İÇERİK -->
+  <main class="content">
+
+    <div class="video-wrapper">
+      <iframe
+        id="videoPlayer"
+        src=""
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="button-row">
+      <a href="https://notebooklm.google.com/notebook/fc8b5bfe-71eb-4937-916e-3343994bef03"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="btn btn-summary">
+        📘 Konu Özeti
+      </a>
+
+      <button id="btnQuiz">📝 Test Çöz</button>
+      <button id="btnPdf">📄 PDF İndir</button>
+    </div>
+
+    <div id="summaryBox" class="info-box hidden">
+      <h3>Konu Özeti</h3>
+      <p>Burası bu dersin konu özetidir...</p>
+    </div>
+
+    <div id="quizBox" class="info-box hidden">
+      <h3>Test Çöz</h3>
+      <p>Test çözmek için aşağıdaki butona tıklayın.</p>
+      <button onclick="window.location.href='quiz1.html'">
+        Teste Başla
+      </button>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="pagescript.js"></script>
+</body>
+</html>
